@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ghost-for-theme-creators-dev:
+    image: ghost:3
+    ports:
+      - 80:2368
+    volumes:
+      - ./content/:/var/lib/ghost/content/
+    restart: always
+    environment:
+      - url=http://localhost
