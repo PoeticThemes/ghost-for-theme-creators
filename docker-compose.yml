@@ -1,6 +1,7 @@
+# This docker-compose.yml file is intended for easy development of this Docker image.
 version: '3'
 services:
-  ghost-for-theme-creators-dev:
+  ghost:
     image: ghost:3
     ports:
       - 80:2368
