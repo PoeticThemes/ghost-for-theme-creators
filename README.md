@@ -1,0 +1,48 @@
+# Ghost for Theme Creators
+Develop, test, and deliver high-quality themes for Ghost with **Ghost for Theme Creators**, a Docker image that helps you develop and test your Ghost themes with **over 20 unit tests** in the form of posts and pages.
+
+# List of tests
+These tests are designed to help you find bugs in your theme, and to ensure it's robust enough to handle a variety of edge cases as well as 
+
+- HTML cards
+- Featured post
+- Featured post (no image)
+- Special characters
+- YouTube cards
+- Vimeo cards
+- Image cards
+- Long content
+- Nested and mixed lists
+- Many tags
+- No title, no content, no image
+- Untitled post
+- No content
+- Long title
+- Error page
+- Post (no image)
+- Page
+- Page (no image)
+- Gallery cards
+- Embedded items
+- Bookmarks
+
+# Adding it to your theme
+1. Create a ***docker-compose.yml*** file in your theme's project directory:
+```
+# This docker-compose.yml file is intended for easy development of this theme.
+version: '3'
+services:
+  ghost-for-theme-creators:
+    image: poeticthemes/ghost-for-theme-creators
+    ports:
+      - 80:2368
+    volumes:
+      # Mount source code into casper directory to set it as the current theme:
+      - ./:/var/lib/ghost/content/themes/casper/
+    restart: always
+    environment:
+      - url=http://localhost
+      - NODE_ENV=development
+```
+2. Make sure **Docker Desktop** is running and in your theme's project directory run `docker-compose pull && docker-compose up -d`
+3. Open `http://localhost` on your web browser and start developing.
