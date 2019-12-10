@@ -52,3 +52,6 @@ services:
 3. Open `http://localhost` on your web browser and start developing.
 
 For a real example check the ***docker-compose.yml*** file in the [Boo for Ghost](https://github.com/PoeticThemes/boo) theme.
+
+# How to request more tests
+Simply [open a new issue here](https://github.com/PoeticThemes/ghost-for-theme-creators/issues/new) and exmplain the test you want to implement with as much details as possible.
