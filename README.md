@@ -1,11 +1,11 @@
-# Ghost for Theme Creators
+# 🎨 Ghost for Theme Creators
 Develop, test, and deliver high-quality themes for Ghost with **Ghost for Theme Creators**, a Docker image that helps you develop and test your Ghost themes with **over 20 unit tests** in the form of posts and pages.
 
 [![Ghost for Theme Creators](https://i.imgur.com/PXAtEmz.png)](https://github.com/PoeticThemes/ghost-for-theme-creators/stargazers)
 
 [![Ghost for Theme Creators](https://i.imgur.com/on39dIl.png)](https://github.com/PoeticThemes/ghost-for-theme-creators/stargazers)
 
-# List of tests
+# 🧪 List of tests
 These tests are designed to help you find bugs in your themes, and to ensure they are robust enough to handle a variety of edge cases.
 
 - HTML cards
@@ -30,7 +30,7 @@ These tests are designed to help you find bugs in your themes, and to ensure the
 - Embedded items
 - Bookmarks
 
-# Adding it to your theme
+# 🔧 Adding it to your theme
 1. Create a ***docker-compose.yml*** file in your theme's project directory:
 ```
 # This docker-compose.yml file is intended for easy development of this theme.
@@ -53,5 +53,5 @@ services:
 
 For a real example check the ***docker-compose.yml*** file in the [Boo for Ghost](https://github.com/PoeticThemes/boo) theme.
 
-# How to request more tests
+# 💬 How to request more tests
 Simply [open a new issue here](https://github.com/PoeticThemes/ghost-for-theme-creators/issues/new) and exmplain the test you want to implement with as much details as possible.
