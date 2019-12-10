@@ -50,3 +50,5 @@ services:
 ```
 2. Make sure **Docker Desktop** is running and in your theme's project directory run `docker-compose pull && docker-compose up -d`
 3. Open `http://localhost` on your web browser and start developing.
+
+For a real example check the ***docker-compose.yml*** in the [Boo for Ghost](https://github.com/PoeticThemes/boo) theme.
