@@ -56,5 +56,5 @@ For a real example check the ***docker-compose.yml*** file in the [Boo for Ghost
 # 💬 How to request more tests
 Simply [open a new issue here](https://github.com/PoeticThemes/ghost-for-theme-creators/issues/new) and exmplain the test you want to implement with as much details as possible.
 
-# 👏 Show us your love
+# ❤️ Show us your love
 If you like ***Ghost for Theme Creators*** don't forget to click the star button! [![GitHub stars](https://img.shields.io/github/stars/PoeticThemes/ghost-for-theme-creators.svg?style=social&label=Star)](https://github.com/PoeticThemes/ghost-for-theme-creators/stargazers)
