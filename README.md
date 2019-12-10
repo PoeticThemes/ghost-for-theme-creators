@@ -1,8 +1,12 @@
 # Ghost for Theme Creators
 Develop, test, and deliver high-quality themes for Ghost with **Ghost for Theme Creators**, a Docker image that helps you develop and test your Ghost themes with **over 20 unit tests** in the form of posts and pages.
 
+[![Ghost for Theme Creators](https://i.imgur.com/eoLnSyl.png)](https://github.com/PoeticThemes/ghost-for-theme-creators/stargazers)
+
+[![Ghost for Theme Creators](https://i.imgur.com/gm9g3jd.png)](https://github.com/PoeticThemes/ghost-for-theme-creators/stargazers)
+
 # List of tests
-These tests are designed to help you find bugs in your theme, and to ensure it's robust enough to handle a variety of edge cases as well as 
+These tests are designed to help you find bugs in your themes, and to ensure they are robust enough to handle a variety of edge cases.
 
 - HTML cards
 - Featured post
